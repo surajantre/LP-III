@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_marks",
+						"type": "uint256[]"
+					}
+				],
+				"name": "acceptMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMarks",
+				"outputs": [
+					{
+						"internalType": "uint256[10]",
+						"name": "",
+						"type": "uint256[10]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "marks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BCT/PassStudentMarks4.sol": "PassStudentMarks"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BCT/PassStudentMarks4.sol": {
+			"keccak256": "0x9cd35e734128e04af98f36b7d1e721608e6a118c057546f4c8d51af3e47f7f14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bff1e3476d780d6ec0e0e63f822ad0662bb3bbf4bf4bcc6cd9a2cb6ca8c19134",
+				"dweb:/ipfs/QmadYgtUkrxeKF2rHZGs5ueXAH3NuEyXDVo9j64CnpYmkm"
+			]
+		}
+	},
+	"version": 1
+}
